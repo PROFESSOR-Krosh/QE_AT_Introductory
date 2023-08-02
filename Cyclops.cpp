@@ -20,7 +20,6 @@ int main() {
 		if(diopters[i + 1] - diopters[i] < 3) {
 			++i;
 		}
-		std::cout << i << " : " << count << std::endl;
 	}
 
 	std::cout << count << std::endl;
